@@ -80,9 +80,44 @@
   </section>
 
   <!-- Contact -->
-  <footer id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:belinda@example.com">belinda@example.com</a></p>
+  <section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:ajiambobelinda02@gmail.com">ajiambobelinda02@gmail.com</a></p>
+
+  <!-- Contact Form -->
+  <div class="contact-form">
+    <h3>Send Me a Message</h3>
+    <form action="https://formspree.io/f/mldlyzor" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required autocomplete="email">
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autocomplete="tel">
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+<footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Belinda Ajiambo. All rights reserved.</p>
+      <p>
+        Follow me on 
+        <a href="https://instagram.com/Lyndabwire" target="_blank" rel="noopener noreferrer"> Instagram</a>, 
+        <a href="https://linkedin.com/in/BelindaAjiambo" target="_blank" rel="noopener noreferrer">LinkedIn
+        </a>, and 
+        <a href="https://github.com/ajiambo-belinda" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      </p>
+    </div>
   </footer>
 </body>
 </html>
